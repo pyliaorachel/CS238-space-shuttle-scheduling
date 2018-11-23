@@ -2,7 +2,7 @@ import numpy as np
 from tqdm import tqdm
 
 
-class LargePolicy(object):
+class QLearnPolicy(object):
     def __init__(self, data):
         self.data = data
         self.no_st = 365*3
