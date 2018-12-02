@@ -40,7 +40,7 @@ def run(env, n_episodes, gamma, is_eval=False, model=None):
         rho = model['rho']
         Q = model['Q']
 
-    # Train
+    # Train or eval
     total_rewards = 0
     for i_episode in range(n_episodes):
         epsilon = get_epsilon(i_episode)
