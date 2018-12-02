@@ -1,14 +1,14 @@
 import argparse
 import sys
 
-from .model import random, q_learning, mle_vi, pomdp
+from .model import random, q_learning, mlrl, pomdp
 from .env import SimEnv
 from . import params
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Shuttle Scheduling Model Training.')
     parser.add_argument('--algo', type=str, default='random',
-                        help='One of random, q-learning, mle-vi, and pomdp. Default: random')
+                        help='One of random, q-learning, mlrl, and pomdp. Default: random')
     parser.add_argument('--n-episodes', type=int, default=100,
                         help='Number of episodes to run. Default: 100')
     args = parser.parse_args()
@@ -17,8 +17,8 @@ if __name__ == '__main__':
         algo = random.run
     elif args.algo == 'q-learning':
         algo = q_learning.run
-    elif args.algo == 'mle-vi':
-        algo = mle_vi.run
+    elif args.algo == 'mlrl':
+        algo = mlrl.run
     elif args.algo == 'pomdp':
         algo = pomdp.run
     else:

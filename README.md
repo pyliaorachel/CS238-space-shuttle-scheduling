@@ -17,5 +17,5 @@ $ python -m src.human_eval
 
 - `random`
 - `q-learning`
-- `mle-vi`
+- `mlrl`
 - `pomdp`
