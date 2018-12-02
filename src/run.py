@@ -14,18 +14,23 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     if args.algo == 'random':
-        algo = random.train
+        algo = random.run
     elif args.algo == 'q-learning':
-        algo = q_learning.train
+        algo = q_learning.run
     elif args.algo == 'mle-vi':
-        algo = mle_vi.train
+        algo = mle_vi.run
     elif args.algo == 'pomdp':
-        algo = pomdp.train
+        algo = pomdp.run
     else:
         print('Algorithm not supported.')
         sys.exit(1)
 
     env = SimEnv(params.N_S, params.N_A, params.MAX_R, params.PENALTY, params.W1, params.W2, params.W3, params.N_SHUTTLES)
     
-    rewards = algo(env, args.n_episodes, params.GAMMA, params.EPSILON)
+    # Train
+    rewards, model = algo(env, args.n_episodes, params.GAMMA)
     print('Num of episodes: {}, rewards: {}'.format(args.n_episodes, rewards))
+
+    # Evaluate
+    rewards, model = algo(env, 10, params.GAMMA, is_eval=True, model=model)
+    print('Num of episodes: {}, rewards: {}'.format(10, rewards))

@@ -1,2 +1,2 @@
-def train(env, n_episodes, gamma, epsilon):
+def run(env, n_episodes, gamma):
     pass

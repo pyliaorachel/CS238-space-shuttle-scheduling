@@ -6,8 +6,8 @@
 # Generate batch experiences
 $ python -m src.batch_experiences <csv-output-file-path>
 
-# Train
-$ python -m src.train --algo <algorithm> --n-episodes <num-of-episodes>
+# Train & evaluate
+$ python -m src.run --algo <algorithm> --n-episodes <num-of-episodes>
 ```
 
 ## Algorithms

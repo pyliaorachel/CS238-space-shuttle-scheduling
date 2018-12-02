@@ -8,4 +8,3 @@ W3 = 0.6
 N_SHUTTLES = 5
 
 GAMMA = 0.95
-EPSILON = 0.1

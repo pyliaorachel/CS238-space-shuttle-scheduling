@@ -6,7 +6,7 @@ import numpy as np
 def choose_action(n_actions):
     return math.ceil(np.random.rand() * n_actions) # cannot be 0
 
-def train(env, n_episodes, gamma, epsilon):
+def run(env, n_episodes, gamma, is_eval=False, model=None):
     total_rewards = 0
     for i_episode in range(n_episodes):
         s = env.reset()
@@ -27,4 +27,4 @@ def train(env, n_episodes, gamma, epsilon):
         print('Rewards: {}, total: {}'.format(rewards, total_rewards))
  
     avg_rewards = total_rewards / n_episodes
-    return avg_rewards
+    return avg_rewards, None
