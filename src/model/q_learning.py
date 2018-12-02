@@ -1,8 +1,8 @@
-from qlearnpolicy import QLearnPolicy
+from .qlearnpolicy import QLearnPolicy
 import time 
 import pandas as pd
 
-data = pd.read_csv('data.csv')
+data = pd.read_csv('data/data.csv')
 def train(env, n_episodes, gamma, epsilon):
     QL = QLearnPolicy(large_data)
     start = time.time()
