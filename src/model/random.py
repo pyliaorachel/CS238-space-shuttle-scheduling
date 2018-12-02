@@ -6,7 +6,7 @@ import numpy as np
 def choose_action(n_actions):
     return math.ceil(np.random.rand() * n_actions) # cannot be 0
 
-def train(env, n_episodes):
+def train(env, n_episodes, gamma, epsilon):
     total_rewards = 0
     for i_episode in range(n_episodes):
         s = env.reset()

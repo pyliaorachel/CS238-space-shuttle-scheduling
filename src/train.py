@@ -27,5 +27,5 @@ if __name__ == '__main__':
 
     env = SimEnv(params.N_S, params.N_A, params.MAX_R, params.PENALTY, params.W1, params.W2, params.W3, params.N_SHUTTLES)
     
-    rewards = algo(env, N_EPISODES)
+    rewards = algo(env, args.n_episodes, params.GAMMA, params.EPSILON)
     print('Num of episodes: {}, rewards: {}'.format(N_EPISODES, rewards))
