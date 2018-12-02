@@ -24,6 +24,7 @@ def train(env, n_episodes, gamma, epsilon):
 
             s = sp
         total_rewards += rewards
+        print('Rewards: {}, total: {}'.format(rewards, total_rewards))
  
     avg_rewards = total_rewards / n_episodes
     return avg_rewards
