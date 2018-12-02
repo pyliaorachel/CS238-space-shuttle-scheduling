@@ -7,7 +7,7 @@
 $ python -m src.batch_experiences <csv-output-file-path>
 
 # Train
-$ python -m src.train --algo <algorithm>
+$ python -m src.train --algo <algorithm> --n-episodes <num-of-episodes>
 ```
 
 ## Algorithms
