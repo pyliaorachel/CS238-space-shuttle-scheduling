@@ -1,5 +1,3 @@
-import math
-
 import numpy as np
 
 
@@ -22,12 +20,13 @@ class SimEnv:
         return self.current_s
 
     def step(self, action):
-        delay = int((self.w1 * np.random.rand() / action) \
-                    + self.w2 * np.random.rand() * action \
-                    + self.w3 * np.random.rand() * action)
+        date = action + 1
+        delay = int((self.w1 * np.random.rand() / date) \
+                    + self.w2 * np.random.rand() * date \
+                    + self.w3 * np.random.rand() * date)
         reward = self.max_r - delay
 
-        self.current_s = self.current_s + action + delay
+        self.current_s = self.current_s + date + delay
         done = False
         expires = False
         if self.current_s >= self.n_s:
@@ -48,7 +47,7 @@ class SimEnv:
         delays = np.zeros(n, dtype=int)
         for i in range(n):
             s = self.current_s
-            a = math.ceil(np.random.rand() * self.n_a) # cannot be 0
+            a = int(np.random.rand() * self.n_a)
             sp, r, done, info = self.step(a)
 
             experiences[i] = [s, a, r, sp]

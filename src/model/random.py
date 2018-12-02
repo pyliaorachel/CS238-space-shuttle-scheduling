@@ -1,10 +1,8 @@
-import math
-
 import numpy as np
 
 
 def choose_action(n_actions):
-    return math.ceil(np.random.rand() * n_actions) # cannot be 0
+    return int(np.random.rand() * n_actions)
 
 def run(env, n_episodes, gamma, is_eval=False, model=None):
     total_rewards = 0

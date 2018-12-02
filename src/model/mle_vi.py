@@ -7,9 +7,9 @@ def choose_action(Q, s, epsilon):
     n_s, n_a = Q.shape
 
     if np.random.rand() < epsilon: # explore
-        return math.ceil(np.random.rand() * n_a) # cannot be 0
+        return int(np.random.rand() * n_a)
     else: # exploit
-        return np.argmax(Q[s]) + 1 # offset 1
+        return np.argmax(Q[s])
 
 def update(Q, N_sas, rho, gamma):
     n_s, n_a, _ = N_sas.shape
