@@ -11,16 +11,15 @@ def choose_action(Q, s, epsilon):
     else: # exploit
         return np.argmax(Q[s])
 
-def update(Q, N_sas, rho, gamma):
+def update(Q, s, a, N_sas, rho, gamma):
     n_s, n_a, _ = N_sas.shape
 
-    N_sa = np.sum(N_sas, axis=2)
-    R = rho / N_sa
-    N_sa = np.repeat(N_sa[:, :, np.newaxis], n_s, axis=2)
-    T = N_sas / N_sa
+    N_sa = np.sum(N_sas[s, a])
+    R = rho[s, a] / N_sa
+    T = N_sas[s, a] / N_sa
 
     max_Q = np.max(Q, axis=1)
-    Q = R + gamma * np.matmul(T, max_Q)
+    Q[s, a] = R + gamma * np.dot(T, max_Q)
 
     return Q
 
@@ -60,7 +59,7 @@ def run(env, n_episodes, gamma, is_eval=False, model=None):
                 rho[s, a] += r
 
                 # Update Q
-                Q = update(Q, N_sas, rho, gamma)
+                Q = update(Q, s, a, N_sas, rho, gamma)
 
             # Check end of episode
             if done:
