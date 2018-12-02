@@ -29,8 +29,8 @@ if __name__ == '__main__':
     
     # Train
     rewards, model = algo(env, args.n_episodes, params.GAMMA)
-    print('Num of episodes: {}, rewards: {}'.format(args.n_episodes, rewards))
+    print('Train - Num of episodes: {}, rewards: {}'.format(args.n_episodes, rewards))
 
     # Evaluate
     rewards, model = algo(env, 10, params.GAMMA, is_eval=True, model=model)
-    print('Num of episodes: {}, rewards: {}'.format(10, rewards))
+    print('Eval - Num of episodes: {}, rewards: {}'.format(10, rewards))
