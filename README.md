@@ -1,4 +1,4 @@
-# CS238 Space SHuttle Scheduling
+# CS238 Space Shuttle Scheduling
 
 ## Usage
 
