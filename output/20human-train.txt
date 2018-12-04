@@ -1,0 +1,454 @@
+Initial date: 0
+Choose action (1-365): 100
+Chosen next launch: +100, Actual launch date: 161, Reward: 189, Delay: 61
+Choose action (1-365): 200
+Chosen next launch: +200, Actual launch date: 579, Reward: 32,Delay: 218
+Choose action (1-365): 300
+Chosen next launch: +300, Actual launch date: 1094, Reward: -154, Delay: 304
+End of episode:1. Rewards: 67, total: 67
+End evaluating? (Y/N)n
+Initial date: 0
+Choose action (1-365): 100
+Chosen next launch: +100, Actual launch date: 118, Reward: 232, Delay: 18
+Choose action (1-365): 50
+Chosen next launch: +50, Actual launch date: 194, Reward: 224,Delay: 26
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 289, Reward: 215,Delay: 35
+Choose action (1-365): 40
+Chosen next launch: +40, Actual launch date: 380, Reward: 199,Delay: 51
+Choose action (1-365): 50
+Chosen next launch: +50, Actual launch date: 476, Reward: 204,Delay: 46
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 555, Reward: 231,Delay: 19
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 638, Reward: 227,Delay: 23
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 783, Reward: 165,Delay: 85
+Choose action (1-365): 50
+Chosen next launch: +50, Actual launch date: 891, Reward: 192,Delay: 58
+Choose action (1-365): 4
+Chosen next launch: +4, Actual launch date: 900, Reward: 245, Delay: 5
+End of episode:2. Rewards: 2134, total: 2201
+End evaluating? (Y/N)3
+Initial date: 0
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 5, Reward: 248, Delay: 2
+Choose action (1-365): 2
+Chosen next launch: +2, Actual launch date: 103, Reward: 154, Delay: 96
+Choose action (1-365): 1
+Chosen next launch: +1, Actual launch date: 331, Reward: 23, Delay: 227
+Choose action (1-365): 10
+Chosen next launch: +10, Actual launch date: 355, Reward: 236,Delay: 14
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 395, Reward: 230,Delay: 20
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 440, Reward: 235,Delay: 15
+Choose action (1-365): 40
+Chosen next launch: +40, Actual launch date: 511, Reward: 219,Delay: 31
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 579, Reward: 212,Delay: 38
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 621, Reward: 228,Delay: 22
+Choose action (1-365): 10
+Chosen next launch: +10, Actual launch date: 671, Reward: 210,Delay: 40
+End of episode:3. Rewards: 1995, total: 4196
+End evaluating? (Y/N)10
+Initial date: 0
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 49, Reward: 221, Delay: 29
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 109, Reward: 220,Delay: 30
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 148, Reward: 231,Delay: 19
+Choose action (1-365): 10
+Chosen next launch: +10, Actual launch date: 173, Reward: 235,Delay: 15
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 233, Reward: 210,Delay: 40
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 293, Reward: 220,Delay: 30
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 346, Reward: 220,Delay: 30
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 416, Reward: 214,Delay: 36
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 469, Reward: 231,Delay: 19
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 516, Reward: 237,Delay: 13
+End of episode:4. Rewards: 2239, total: 6435
+End evaluating? (Y/N)23
+Initial date: 0
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 53, Reward: 220, Delay: 30
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 96, Reward: 230, Delay: 20
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 161, Reward: 208,Delay: 42
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 215, Reward: 219,Delay: 31
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 261, Reward: 227,Delay: 23
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 350, Reward: 195,Delay: 55
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 463, Reward: 182,Delay: 68
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 523, Reward: 224,Delay: 26
+Choose action (1-365): 2
+Chosen next launch: +2, Actual launch date: 696, Reward: 79, Delay: 171
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 797, Reward: 152, Delay: 98
+End of episode:5. Rewards: 1936, total: 8371
+End evaluating? (Y/N)34
+Initial date: 0
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 66, Reward: 218, Delay: 32
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 144, Reward: 206,Delay: 44
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 214, Reward: 225,Delay: 25
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 273, Reward: 214,Delay: 36
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 319, Reward: 238,Delay: 12
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 363, Reward: 229,Delay: 21
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 431, Reward: 216,Delay: 34
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 469, Reward: 235,Delay: 15
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 544, Reward: 209,Delay: 41
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 576, Reward: 241,Delay: 9
+End of episode:6. Rewards: 2231, total: 10602
+End evaluating? (Y/N)34
+Initial date: 0
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 52, Reward: 221, Delay: 29
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 112, Reward: 224,Delay: 26
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 153, Reward: 232,Delay: 18
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 225, Reward: 212,Delay: 38
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 280, Reward: 218,Delay: 32
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 341, Reward: 212,Delay: 38
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 383, Reward: 231,Delay: 19
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 458, Reward: 209,Delay: 41
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 474, Reward: 237, Delay: 13
+Choose action (1-365): 5
+Chosen next launch: +5, Actual launch date: 507, Reward: 222, Delay: 28
+End of episode:7. Rewards: 2218, total: 12820
+End evaluating? (Y/N)4
+Initial date: 0
+Choose action (1-365): 4
+Chosen next launch: +4, Actual launch date: 40, Reward: 214, Delay: 36
+Choose action (1-365): 5
+Chosen next launch: +5, Actual launch date: 92, Reward: 203, Delay: 47
+Choose action (1-365): 6
+Chosen next launch: +6, Actual launch date: 132, Reward: 216, Delay: 34
+Choose action (1-365): 7
+Chosen next launch: +7, Actual launch date: 181, Reward: 208, Delay: 42
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 263, Reward: 198,Delay: 52
+Choose action (1-365): 2
+Chosen next launch: +2, Actual launch date: 404, Reward: 111, Delay: 139
+Choose action (1-365): 1
+Chosen next launch: +1, Actual launch date: 575, Reward: 80, Delay: 170
+Choose action (1-365): 40
+Chosen next launch: +40, Actual launch date: 658, Reward: 207,Delay: 43
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 703, Reward: 235,Delay: 15
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 746, Reward: 227,Delay: 23
+End of episode:8. Rewards: 1899, total: 14719
+End evaluating? (Y/N)23
+Initial date: 0
+Choose action (1-365): 50
+Chosen next launch: +50, Actual launch date: 86, Reward: 214, Delay: 36
+Choose action (1-365): 40
+Chosen next launch: +40, Actual launch date: 158, Reward: 218,Delay: 32
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 257, Reward: 211,Delay: 39
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 321, Reward: 216,Delay: 34
+Choose action (1-365): 50
+Chosen next launch: +50, Actual launch date: 424, Reward: 197,Delay: 53
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 483, Reward: 221,Delay: 29
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 541, Reward: 215,Delay: 35
+Choose action (1-365): 40
+Chosen next launch: +40, Actual launch date: 608, Reward: 223,Delay: 27
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 722, Reward: 196,Delay: 54
+Choose action (1-365): 6
+Chosen next launch: +6, Actual launch date: 730, Reward: 248, Delay: 2
+End of episode:9. Rewards: 2159, total: 16878
+End evaluating? (Y/N)23
+Initial date: 0
+Choose action (1-365): 1
+Chosen next launch: +1, Actual launch date: 223, Reward: 28, Delay: 222
+Choose action (1-365): 2
+Chosen next launch: +2, Actual launch date: 367, Reward: 108, Delay: 142
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 481, Reward: 139, Delay: 111
+Choose action (1-365): 4
+Chosen next launch: +4, Actual launch date: 573, Reward: 162, Delay: 88
+Choose action (1-365): 5
+Chosen next launch: +5, Actual launch date: 640, Reward: 188, Delay: 62
+Choose action (1-365): 6
+Chosen next launch: +6, Actual launch date: 689, Reward: 207, Delay: 43
+Choose action (1-365): 7
+Chosen next launch: +7, Actual launch date: 738, Reward: 208, Delay: 42
+Choose action (1-365): 8
+Chosen next launch: +8, Actual launch date: 769, Reward: 227, Delay: 23
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 795, Reward: 233, Delay: 17
+Choose action (1-365): 10
+Chosen next launch: +10, Actual launch date: 841, Reward: 214,Delay: 36
+End of episode:10. Rewards: 1714, total: 18592
+End evaluating? (Y/N)9
+Initial date: 0
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 34, Reward: 225, Delay: 25
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 86, Reward: 207, Delay: 43
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 135, Reward: 210, Delay: 40
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 154, Reward: 240, Delay: 10
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 194, Reward: 219, Delay: 31
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 233, Reward: 220, Delay: 30
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 258, Reward: 234, Delay: 16
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 304, Reward: 213, Delay: 37
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 320, Reward: 243, Delay: 7
+Choose action (1-365): 9
+Chosen next launch: +9, Actual launch date: 350, Reward: 229, Delay: 21
+End of episode:11. Rewards: 2240, total: 20832
+End evaluating? (Y/N)9
+Initial date: 0
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 48, Reward: 225, Delay: 25
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 100, Reward: 221,Delay: 29
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 137, Reward: 236,Delay: 14
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 174, Reward: 236,Delay: 14
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 208, Reward: 239,Delay: 11
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 264, Reward: 217,Delay: 33
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 322, Reward: 226,Delay: 24
+Choose action (1-365): 445
+Invalid action.
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 374, Reward: 218,Delay: 32
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 440, Reward: 204,Delay: 46
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 486, Reward: 238,Delay: 12
+End of episode:12. Rewards: 2260, total: 23092
+End evaluating? (Y/N)34
+Initial date: 0
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 42, Reward: 238, Delay: 12
+Choose action (1-365): 20
+Chosen next launch: +20, Actual launch date: 98, Reward: 214, Delay: 36
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 104, Reward: 247, Delay: 3
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 157, Reward: 220,Delay: 30
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 206, Reward: 235,Delay: 15
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 293, Reward: 208,Delay: 42
+Choose action (1-365): 56
+Chosen next launch: +56, Actual launch date: 384, Reward: 215,Delay: 35
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 446, Reward: 233,Delay: 17
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 536, Reward: 163, Delay: 87
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 598, Reward: 222,Delay: 28
+End of episode:13. Rewards: 2195, total: 25287
+End evaluating? (Y/N)23
+Initial date: 0
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 53, Reward: 220, Delay: 30
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 168, Reward: 138, Delay: 112
+Choose action (1-365): 44
+Chosen next launch: +44, Actual launch date: 248, Reward: 214,Delay: 36
+Choose action (1-365): 53
+Chosen next launch: +53, Actual launch date: 346, Reward: 205,Delay: 45
+Choose action (1-365): 434
+Invalid action.
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 384, Reward: 235,Delay: 15
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 462, Reward: 206,Delay: 44
+Choose action (1-365): 5
+Chosen next launch: +5, Actual launch date: 527, Reward: 190, Delay: 60
+Choose action (1-365): 4
+Chosen next launch: +4, Actual launch date: 597, Reward: 184, Delay: 66
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 719, Reward: 131, Delay: 119
+Choose action (1-365): 42
+Chosen next launch: +42, Actual launch date: 801, Reward: 210,Delay: 40
+End of episode:14. Rewards: 1933, total: 27220
+End evaluating? (Y/N)32
+Initial date: 0
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 111, Reward: 142, Delay: 108
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 159, Reward: 225,Delay: 25
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 205, Reward: 227,Delay: 23
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 246, Reward: 232,Delay: 18
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 312, Reward: 229,Delay: 21
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 364, Reward: 221,Delay: 29
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 433, Reward: 204,Delay: 46
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 504, Reward: 202,Delay: 48
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 563, Reward: 214,Delay: 36
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 609, Reward: 227,Delay: 23
+End of episode:15. Rewards: 2123, total: 29343
+End evaluating? (Y/N)23
+Initial date: 0
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 49, Reward: 224, Delay: 26
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 98, Reward: 235, Delay: 15
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 169, Reward: 213,Delay: 37
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 251, Reward: 202,Delay: 48
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 325, Reward: 210,Delay: 40
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 414, Reward: 206,Delay: 44
+Choose action (1-365): 56
+Chosen next launch: +56, Actual launch date: 522, Reward: 198,Delay: 52
+Choose action (1-365): 56
+Chosen next launch: +56, Actual launch date: 622, Reward: 206,Delay: 44
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 676, Reward: 230,Delay: 20
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 734, Reward: 215,Delay: 35
+End of episode:16. Rewards: 2139, total: 31482
+End evaluating? (Y/N)45
+Initial date: 0
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 80, Reward: 204, Delay: 46
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 136, Reward: 239,Delay: 11
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 202, Reward: 218,Delay: 32
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 222, Reward: 233, Delay: 17
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 272, Reward: 223,Delay: 27
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 326, Reward: 230,Delay: 20
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 392, Reward: 229,Delay: 21
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 445, Reward: 231,Delay: 19
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 511, Reward: 207,Delay: 43
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 568, Reward: 216,Delay: 34
+End of episode:17. Rewards: 2230, total: 33712
+End evaluating? (Y/N)34
+Initial date: 0
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 63, Reward: 221, Delay: 29
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 145, Reward: 213,Delay: 37
+Choose action (1-365): 4
+Chosen next launch: +4, Actual launch date: 205, Reward: 194, Delay: 56
+Choose action (1-365): 556
+Invalid action.
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 270, Reward: 219,Delay: 31
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 352, Reward: 202,Delay: 48
+Choose action (1-365): 3
+Chosen next launch: +3, Actual launch date: 371, Reward: 234, Delay: 16
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 426, Reward: 229,Delay: 21
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 508, Reward: 213,Delay: 37
+Choose action (1-365): 60
+Chosen next launch: +60, Actual launch date: 613, Reward: 205,Delay: 45
+Choose action (1-365): 6
+Chosen next launch: +6, Actual launch date: 670, Reward: 199, Delay: 51
+End of episode:18. Rewards: 2129, total: 35841
+End evaluating? (Y/N)4
+Initial date: 0
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 72, Reward: 212, Delay: 38
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 141, Reward: 226,Delay: 24
+Choose action (1-365): 56
+Chosen next launch: +56, Actual launch date: 229, Reward: 218,Delay: 32
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 285, Reward: 228,Delay: 22
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 340, Reward: 218,Delay: 32
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 403, Reward: 221,Delay: 29
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 444, Reward: 232,Delay: 18
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 496, Reward: 221,Delay: 29
+Choose action (1-365): 2
+Chosen next launch: +2, Actual launch date: 519, Reward: 229, Delay: 21
+Choose action (1-365): 334
+Chosen next launch: +334, Actual launch date: 960, Reward: 143, Delay: 107
+End of episode:19. Rewards: 2148, total: 37989
+End evaluating? (Y/N)4
+Initial date: 0
+Choose action (1-365): 54
+Chosen next launch: +54, Actual launch date: 125, Reward: 179,Delay: 71
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 218, Reward: 191,Delay: 59
+Choose action (1-365): 2
+Chosen next launch: +2, Actual launch date: 296, Reward: 174, Delay: 76
+Choose action (1-365): 312
+Chosen next launch: +312, Actual launch date: 773, Reward: 85,Delay: 165
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 829, Reward: 228,Delay: 22
+Choose action (1-365): 23
+Chosen next launch: +23, Actual launch date: 876, Reward: 226,Delay: 24
+Choose action (1-365): 34
+Chosen next launch: +34, Actual launch date: 963, Reward: 197,Delay: 53
+Choose action (1-365): 45
+Chosen next launch: +45, Actual launch date: 1037, Reward: 221, Delay: 29
+Choose action (1-365): 30
+Chosen next launch: +30, Actual launch date: 1077, Reward: 240, Delay: 10
+Choose action (1-365): 40
+Chosen next launch: +40, Actual launch date: 1094, Reward: 113, Delay: 37
+End of episode:20. Rewards: 1854, total: 39843
+
+
+When 10<a<100 reward is around 200 result is almost the same level of random algo.
