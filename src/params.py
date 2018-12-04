@@ -2,9 +2,11 @@ N_S = 365 * 3
 N_A = 365
 MAX_R = 250
 PENALTY = 100
-W1 = 5
+W1 = 365
 W2 = 1
 W3 = 0.6
-N_SHUTTLES = 5
+N_SHUTTLES = 10
+SIGMA = 0.1
+MU = 0
 
 GAMMA = 0.95

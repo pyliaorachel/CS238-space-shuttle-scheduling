@@ -2,13 +2,16 @@ import numpy as np
 
 
 class SimEnv:
-    def __init__(self, n_s, n_a, max_r, not_finish_penalty, w1, w2, w3, n_shuttles):
+    def __init__(self, n_s, n_a, max_r, not_finish_penalty, w1, w2, w3, n_shuttles, mu, sigma):
         self.n_s = n_s                                  # number of states (number of dates for the session)
         self.n_a = n_a                                  # number of actions (number of dates to choose for launching)
         self.max_r = max_r                              # maximum reward if no delay
         self.not_finish_penalty = not_finish_penalty    # penalty if cannot finish launching all shuttles within the period
         self.w1, self.w2, self.w3 = w1, w2, w3          # weighting for the three risks
         self.n_shuttles = n_shuttles                    # number of shuttles to launch in the whole period
+
+        self.mu = mu
+        self.sigma = sigma 
 
         self.current_s = 0
         self.n_launched = 0
@@ -21,9 +24,10 @@ class SimEnv:
 
     def step(self, action):
         date = action + 1
-        delay = int((self.w1 * np.random.rand() / date) \
+        delay = int(np.absolute(self.sigma * np.random.rand() + self.mu) \
+                    * (self.w1 * np.random.rand() / date \
                     + self.w2 * np.random.rand() * date \
-                    + self.w3 * np.random.rand() * date)
+                    + self.w3 * np.random.rand() * date))
         reward = self.max_r - delay
 
         self.current_s = self.current_s + date + delay

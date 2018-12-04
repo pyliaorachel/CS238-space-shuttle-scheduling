@@ -19,3 +19,5 @@ $ python -m src.human_eval
 - `q-learning`
 - `mlrl`
 - `pomdp`
+- `sarsa`
+- `mlrl-pu`
