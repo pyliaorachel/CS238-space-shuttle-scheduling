@@ -11,8 +11,8 @@ def choose_action(Q, s, epsilon):
     else: # exploit
         return np.argmax(Q[s])
 
-def update(Q, s, a, r, sp, lr, gamma):
-    Q[s, a] += lr * (r + gamma * np.random.choice(Q[sp],1) - Q[s, a])
+def update(Q, s, a, r, sp, ap, lr, gamma):
+    Q[s, a] += lr * (r + gamma * Q[sp, ap] - Q[s, a])
     return Q
 
 def run(env, n_episodes, gamma, is_eval=False, model=None):
@@ -44,9 +44,12 @@ def run(env, n_episodes, gamma, is_eval=False, model=None):
             sp, r, done, info = env.step(a)
             rewards += r
 
+            # Choose the next action
+            ap = choose_action(Q, sp, epsilon)
+
             if not is_eval:
                 # Update Q
-                Q = update(Q, s, a, r, sp, lr, gamma)
+                Q = update(Q, s, a, r, sp, ap, lr, gamma)
 
             # Check end of episode
             if done:
@@ -55,6 +58,7 @@ def run(env, n_episodes, gamma, is_eval=False, model=None):
 
             # Transition
             s = sp
+            a = ap
         total_rewards += rewards
         print('Rewards: {}, total: {}'.format(rewards, total_rewards))
 
