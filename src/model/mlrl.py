@@ -11,15 +11,22 @@ def choose_action(Q, s, epsilon):
     else: # exploit
         return np.argmax(Q[s])
 
-def update(Q, s, a, N_sas, rho, gamma):
+def update(Q, s, a, N_sas, rho, gamma, n_to_update=10):
+    # Randomized updates
     n_s, n_a, _ = N_sas.shape
 
-    N_sa = np.sum(N_sas[s, a])
-    R = rho[s, a] / N_sa
-    T = N_sas[s, a] / N_sa
+    states = list(range(n_s))
+    actions = list(range(n_a))
+    s_to_update = [s] + [np.random.choice(states) for _ in range(n_to_update - 1)]
+    a_to_update = [a] + [np.random.choice(actions) for _ in range(n_to_update - 1)]
 
-    max_Q = np.max(Q, axis=1)
-    Q[s, a] = R + gamma * np.dot(T, max_Q)
+    for ss, aa in zip(s_to_update, a_to_update):
+        N_sa = np.sum(N_sas[ss, aa])
+        R = rho[ss, aa] / N_sa
+        T = N_sas[ss, aa] / N_sa
+
+        max_Q = np.max(Q, axis=1)
+        Q[ss, aa] = R + gamma * np.dot(T, max_Q)
 
     return Q
 
