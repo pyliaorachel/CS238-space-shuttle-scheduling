@@ -31,6 +31,7 @@ def choose_action(U, N_sas, rho, s, actions, gamma, epsilon):
 def update(U, N_sas, rho, s, actions, gamma, max_iter=10):
     # Prioritized updates
     n_s = U.shape[0]
+    n_a = len(actions)
 
     pq = [(0, s)]
     pq_set = set()
@@ -44,12 +45,12 @@ def update(U, N_sas, rho, s, actions, gamma, max_iter=10):
         diff = abs(best_v - U[ss])
         U[ss] = best_v
 
-        for ns in range(n_s):
-            for na in actions:
+        for ns in range(ss):
+            for na in range(min(ss - ns, n_a)):
                 N_sa = np.sum(N_sas[ns, na])
                 T = N_sas[ns, na] / N_sa
                 if T[ss] > 0.001: # is pred of ss
-                    p = T[ss] * diff
+                    p = -T[ss] * diff # negative since heapq pops smaller values first
                     if ns in pq_set:
                         j = [k for k, (_, sss) in enumerate(pq) if sss == ns][0]
                         pq[j] = (p, ns)

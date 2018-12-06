@@ -2,14 +2,14 @@ import argparse
 import sys
 import time
 
-from .model import random, q_learning, mlrl, sarsa, mlrl_pu
+from .model import random, q_learning, mlrl, sarsa, mlrl_pu_u, mlrl_pu_q
 from .env import SimEnv
 from . import params
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Shuttle Scheduling Model Training.')
     parser.add_argument('--algo', type=str, default='random',
-                        help='One of random, q-learning, mlrl, sarsa, and mlrl-pu. Default: random')
+                        help='One of random, q-learning, mlrl, sarsa, mlrl-pu-u, and mlrl-pu-q. Default: random')
     parser.add_argument('--n-episodes', type=int, default=100,
                         help='Number of episodes to run. Default: 100')
     args = parser.parse_args()
@@ -22,8 +22,10 @@ if __name__ == '__main__':
         algo = mlrl.run
     elif args.algo == 'sarsa':
         algo = sarsa.run
-    elif args.algo == 'mlrl-pu':
-        algo = mlrl_pu.run
+    elif args.algo == 'mlrl-pu-u':
+        algo = mlrl_pu_u.run
+    elif args.algo == 'mlrl-pu-q':
+        algo = mlrl_pu_q.run
     else:
         print('Algorithm not supported.')
         sys.exit(1)
