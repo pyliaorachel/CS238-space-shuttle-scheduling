@@ -24,10 +24,10 @@ class SimEnv:
 
     def step(self, action):
         date = action + 1
-        delay = int(np.absolute(self.sigma * np.random.rand() + self.mu) \
-                    * (self.w1 * np.random.rand() / date \
-                    + self.w2 * np.random.rand() * date \
-                    + self.w3 * np.random.rand() * date))
+        delay = int(np.absolute(np.random.normal(self.mu, self.sigma)) \
+                    * (self.w1 / date \
+                    + self.w2 * date \
+                    + self.w3 * date))
         reward = self.max_r - delay
 
         self.current_s = self.current_s + date + delay
