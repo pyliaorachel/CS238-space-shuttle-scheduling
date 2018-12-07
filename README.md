@@ -16,8 +16,7 @@ $ python -m src.human_eval
 ## Algorithms
 
 - `random`
-- `q-learning`
-- `mlrl`
-- `pomdp`
-- `sarsa`
+- `mlrl-ru`
 - `mlrl-pu`
+- `q-learning`
+- `sarsa`
