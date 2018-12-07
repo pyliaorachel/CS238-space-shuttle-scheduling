@@ -999,15 +999,14 @@ Rewards: 1917, total: 1581759
 Rewards: 1222, total: 1582981
 Rewards: 1502, total: 1584483
 Train sarsa- Num of episodes: 1000, rewards: 1584.483, time:0.2005908489227295
-1899, 1899
-1502, 3401
-1487, 4888
-1759, 6647
-2341, 8988
-853, 9841
-1724, 11565
-1168, 12733
-1456, 14189
-2366, 16555
-[1899, 1502, 1487, 1759, 2341, 853, 1724, 1168, 1456, 2366]
+Rewards: 1899, total: 1899
+Rewards: 1502, total: 3401
+Rewards: 1487, total: 4888
+Rewards: 1759, total: 6647
+Rewards: 2341, total: 8988
+Rewards: 853, total: 9841
+Rewards: 1724, total: 11565
+Rewards: 1168, total: 12733
+Rewards: 1456, total: 14189
+Rewards: 2366, total: 16555
 Eval - Num of episodes: 10, rewards: 1655.5
